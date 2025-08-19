@@ -117,10 +117,11 @@ The **Task Scheduler Web Application** is a lightweight planner tool built with 
       sudo rm -rf ./pgdata
  
 - if u want to delete the database first before remove the app use following steps
+##### first
+       sudo rm -rf ./pgdata
+##### second 
 
-      first : sudo rm -rf ./pgdata
-
-      second step : ./remove-app.sh
-this will remove the app and pgdata folder at once
+      ./remove-app.sh
+  this will remove the app and pgdata folder at once
    
 - to access pgdata folder manually u need to enter your device password
