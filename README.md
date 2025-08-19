@@ -68,7 +68,7 @@ The **Task Scheduler Web Application** is a lightweight planner tool built with 
 ## Workflow of the application
 
 ### step 01 - Clone the repository
-git clone https://github.com/Thavisha72/task-scheduler.git
+git clone https://github.com/Thavisha72/22UG2-0023.git
 cd task-scheduler
 
 ### step 02 - Make scripts executable
