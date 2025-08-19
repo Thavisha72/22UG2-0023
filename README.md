@@ -70,6 +70,7 @@ The **Task Scheduler Web Application** is a lightweight planner tool built with 
 
 ### step 01 - Clone the repository
 git clone https://github.com/Thavisha72/22UG2-0023.git
+
 cd task-scheduler
 
 ### step 02 - Make scripts executable
@@ -110,11 +111,14 @@ chmod +x prepare-app.sh start-app.sh stop-app.sh remove-app.sh
 
 ### ------ IMPORTANT -------
 
-- after input y the local pgdata folder wont be delete because access danied, so you can delete the folder by
+- after input "y" the local pgdata folder wont be delete because access danied, so you can delete the folder by
+
 sudo rm -rf ./pgdata
  
 - if u want to delete the database first before remove the app use following steps
+
 first : sudo rm -rf ./pgdata
+
 second step : ./remove-app.sh
 this will remove the app and pgdata folder at once
    
