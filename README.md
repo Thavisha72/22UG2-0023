@@ -113,13 +113,13 @@ chmod +x prepare-app.sh start-app.sh stop-app.sh remove-app.sh
 
 - after input "y" the local pgdata folder wont be delete because access danied, so you can delete the folder by
 
-sudo rm -rf ./pgdata
+      sudo rm -rf ./pgdata
  
 - if u want to delete the database first before remove the app use following steps
 
-first : sudo rm -rf ./pgdata
+      first : sudo rm -rf ./pgdata
 
-second step : ./remove-app.sh
+      second step : ./remove-app.sh
 this will remove the app and pgdata folder at once
    
 - to access pgdata folder manually u need to enter your device password
