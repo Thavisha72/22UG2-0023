@@ -69,18 +69,19 @@ The **Task Scheduler Web Application** is a lightweight planner tool built with 
 ## Workflow of the application
 
 ### step 01 - Clone the repository
-git clone https://github.com/Thavisha72/22UG2-0023.git
+    git clone https://github.com/Thavisha72/22UG2-0023.git
+    
 
-cd task-scheduler
+    cd task-scheduler
 
 ### step 02 - Make scripts executable
-chmod +x prepare-app.sh start-app.sh stop-app.sh remove-app.sh
+    chmod +x prepare-app.sh start-app.sh stop-app.sh remove-app.sh
 
 ### step 02 - prepare the resources
-./prepare-app.sh
+    ./prepare-app.sh
 
 ### step 03 - start containers
-./start-app.sh
+    ./start-app.sh
 
 ### step 04 - Open browser → http://localhost:8080
 
@@ -93,18 +94,18 @@ chmod +x prepare-app.sh start-app.sh stop-app.sh remove-app.sh
 - Task shows immediately in the task list
 
 ### step 06 - Stop services
-./stop-app.sh
+    ./stop-app.sh
 
 ### step 07 - Restart services
-./start-app.sh
+    ./start-app.sh
 - after restarting the service then we can again access the http://localhost:8080
 - And also you can see all the tasks you previously add
 - which means the data is persistent
 ### step 08 - Stop services
-./stop-app.sh 
+    ./stop-app.sh 
 
 ### step 09 - delete services
-./remove-app.sh
+    ./remove-app.sh
 
 - run this command and input y if want to delete the local pg data folder
 - input N if dont want to delete the local pd data folder
